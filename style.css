@@ -51,6 +51,7 @@ span
 {
     display: flex; 
     justify-content: center;
+    margin-top: 40px;
     z-index: 1000;
     }
 .formulario
@@ -75,8 +76,27 @@ span
     font-size: 16px;
     z-index: 1000;
 }
+
+.btn
+{
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #DDD; 
+    border-radius: 5px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    z-index: 1000;
+}
+.btn:hover
+{
+    background: black;
+    transition: 0.6s;
+    color:white;
+
+}
 textarea
 {
+    resize: none;
     height: 150px;
     z-index: 1000;
 }
